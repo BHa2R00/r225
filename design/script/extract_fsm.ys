@@ -1,0 +1,6 @@
+set verilog_file [lindex $argv 0]
+read_verilog $verilog_file
+proc
+fsm
+show
+write_json fsm_extract.json
